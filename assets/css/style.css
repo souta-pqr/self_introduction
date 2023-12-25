@@ -18,6 +18,13 @@ header {
     position: relative;
 }
 
+.single-line {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px; /* 必要に応じて調整 */
+}
+
 .profile-pic {
     position: absolute;
     top: 10px;
@@ -27,6 +34,31 @@ header {
     opacity: 0.5; /* ここを追加 */
 }
 
+.comment {
+    position: absolute;
+    top: -50px;
+    left: -10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-size: 0.8em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200%;
+    background-color: rgba(173, 216, 230, 0.7); /* LightBlue */
+}
+
+.balloon:after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgba(173, 216, 230, 0.7) transparent transparent transparent; /* LightBlue */
+}
 
 .intro {
     display: flex;
