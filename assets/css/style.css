@@ -15,6 +15,53 @@ header {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    width: 60px;
+    height: 70px;
+    opacity: 0.5; /* ここを追加 */
+}
+
+
+.intro {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.intro-text {
+    flex: 1;
+}
+
+.intro-img {
+    position: absolute;
+    right: 180px;
+    top: -60px;
+    width: 120px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.intro-img img {
+    margin-bottom: 10px;
+}
+
+.intro-img figcaption {
+    max-width: 120px;
+    text-align: center;
+}
+
+.section {
+    position: relative;
+    padding-right: 160px;
 }
 
 h1 {
@@ -62,3 +109,4 @@ figure {
     display: flex;
     justify-content: space-around;
 }
+
