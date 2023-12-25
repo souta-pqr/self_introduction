@@ -101,7 +101,6 @@ header {
 }
 
 .description {
-    position: absolute;
     padding: 0.1px;
     font-size: 0.8em;
     white-space: nowrap;
@@ -114,18 +113,6 @@ header {
 .draw-line {
     animation: draw-line 2s forwards; /* ここを追加 */
     border-bottom-color: rgba(173, 216, 230, 0.7); /* LightBlue */
-}
-
-.description1 {
-    bottom: -194px; /* ここを調整 */
-    right: 5px; /* ここを調整 */
-    width: 60px; /* ここを調整 */
-}
-
-.description2 {
-    bottom: -775px; /* ここを調整 */
-    right: 5px; /* ここを調整 */
-    width: 500px; /* ここを調整 */
 }
 
 .section {
