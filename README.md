@@ -1,2 +1,2 @@
 # self_introduction
-私について説明するためのwebページを作成するためのものです．
+something to introduce yourself
